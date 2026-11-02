@@ -729,6 +729,10 @@ body::before {
 }
 @media (max-width: 640px) {
   .nav a[href="#perfil"], .nav a[href="#producoes"] { display: none; }
+  .bar { gap: 12px; }
+  .brand { font-size: 1.125rem; }
+  .nav { gap: 12px; }
+  .nav a { font-size: 0.875rem; }
   .room { --w: 76vw; }
   .viewer-step { display: none; }
   .viewer-stage { grid-template-columns: minmax(0, 1fr); }
