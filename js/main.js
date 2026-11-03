@@ -1,4 +1,4 @@
-/* Portfólio Kaua Cyrre: galeria virtual */
+/* Portfólio Kauã Moraes Cyrre: galeria virtual */
 (function () {
   "use strict";
 
