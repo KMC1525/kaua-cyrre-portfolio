@@ -588,6 +588,10 @@ body::before {
 }
 .cert-title { font-size: 1.1875rem; max-width: 60ch; }
 
+/* ===== Open source ===== */
+.project-info { display: grid; gap: 6px; max-width: 60ch; }
+.project-desc { color: var(--ink-2); }
+
 /* ===== Contato ===== */
 .contact { display: grid; gap: 14px; }
 .contact-lead { color: var(--ink-2); max-width: 40ch; }
@@ -728,7 +732,7 @@ body::before {
   .fact, .script-row, .contact-list li { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 640px) {
-  .nav a[href="#perfil"], .nav a[href="#producoes"] { display: none; }
+  .nav a[href="#perfil"], .nav a[href="#producoes"], .nav a[href="#open-source"] { display: none; }
   .bar { gap: 12px; }
   .brand { font-size: 1.125rem; }
   .nav { gap: 12px; }
